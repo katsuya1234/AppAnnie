@@ -1,0 +1,55 @@
+
+
+<td class="rank">24</td>
+<td class="top_paid app paid has_iap">
+  <span class="var change_up">&#x25b2;3</span>
+<a href="/app/motionx-gps-drive/">MotionX GPS Drive</a></td>
+
+
+<td class="top_free app free has_iap">
+<span class="var change_down">&#x25bc;6</span>
+<a href="/app/monopoly-hotels/">MONOPOLY Hotels</a></td>
+<td class="top_gros app free has_iap">
+
+<span class="var change_up">&#x25b2;31</span>
+<a href="/app/tap-pet-hotel/">Tap Pet Hotel</a></td></tr>
+
+        @b << f.scan(/<td class="rank"(.*?)\/a><\/td><\/tr>/)
+
+
+
+<tr class="odd"><td class="rank">25</td>
+<td class="top_paid app paid no_iap"><span class="var change_down">&#x25bc;8</span><a href="/app/munch-time/">Munch Time</a></td><td class="top_free app free has_iap"><span class="var change_down">&#x25bc;9</span><a href="/app/mega-jump/">Mega Jump</a></td><td class="top_gros app free has_iap"><span class="var change_down">&#x25bc;4</span><a href="/app/imob-2/">iMob 2</a></td></tr>
+<tr class="even">
+
+
+
+ <tr class="even">
+                <td class="rank">10</td>
+                
+                    <td class="top_paid app paid  feed_2">
+                        <span class="var change_up">&#x25b2;1</span>
+                        <a href="/app/android/com.gameloft.android.GloftUNOG/">UNOúÙı‚</a>
+                    </td>
+                
+                    <td class="top_free app free  feed_2">
+                        <span class="var change_down">&#x25bc;2</span>
+                        <a href="/app/android/com.melimots.WordSearch/">Word Search</a>
+                    </td>
+                
+            </tr>
+        
+            <tr class="odd">
+                <td class="rank">11</td>
+                
+                    <td class="top_paid app paid  feed_2">
+                        <span class="var change_down">&#x25bc;1</span>
+                        <a href="/app/android/com.eamobile.bejeweled2_na_wf/">BejeweledÅÆ 2</a>
+                    </td>
+                
+                    <td class="top_free app free  feed_2">
+                        <span class="var change_up">&#x25b2;1</span>
+                        <a href="/app/android/mominis.Generic_Android.Ninja_Chicken/">Ninja Chicken</a>
+                    </td>
+                
+            </tr>

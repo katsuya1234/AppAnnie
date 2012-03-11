@@ -1,0 +1,756 @@
+# Logfile created on 2012-03-11 04:06:29 -0700 by logger.rb/25413
+I, [2012-03-11T04:06:29.382358 #17624]  INFO -- : Net::HTTP::Get: /account/login/
+D, [2012-03-11T04:06:29.382443 #17624] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:06:29.382491 #17624] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:06:29.382537 #17624] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:06:29.382581 #17624] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:06:29.382624 #17624] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:06:29.382667 #17624] DEBUG -- : request-header: host => www.appannie.com
+I, [2012-03-11T04:06:33.734378 #17624]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2012-03-11T04:06:33.734637 #17624] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:06:33.734749 #17624] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:06:33 GMT
+D, [2012-03-11T04:06:33.734853 #17624] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2012-03-11T04:06:33.734964 #17624] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2012-03-11T04:06:33.735065 #17624] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:06:33.735164 #17624] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2012-03-11T04:06:33.735263 #17624] DEBUG -- : response-header: content-encoding => gzip
+D, [2012-03-11T04:06:33.735874 #17624] DEBUG -- : Read 3204 bytes (3204 total)
+D, [2012-03-11T04:06:33.736519 #17624] DEBUG -- : gzip response
+I, [2012-03-11T04:06:33.752292 #17624]  INFO -- : form encoding: utf-8
+D, [2012-03-11T04:06:33.755237 #17624] DEBUG -- : query: "username=uenoyama718%40gmail.com&password=globalweb2010&next=%2F"
+I, [2012-03-11T04:06:33.757956 #17624]  INFO -- : Net::HTTP::Post: /account/login/
+D, [2012-03-11T04:06:33.758031 #17624] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:06:33.758088 #17624] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:06:33.758136 #17624] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:06:33.758190 #17624] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:06:33.758235 #17624] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:06:33.758288 #17624] DEBUG -- : request-header: host => www.appannie.com
+D, [2012-03-11T04:06:33.758341 #17624] DEBUG -- : request-header: referer => https://www.appannie.com/account/login/
+D, [2012-03-11T04:06:33.758396 #17624] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2012-03-11T04:06:33.758440 #17624] DEBUG -- : request-header: content-length => 64
+I, [2012-03-11T04:06:34.741478 #17624]  INFO -- : status: Net::HTTPFound 1.1 302 FOUND
+D, [2012-03-11T04:06:34.742187 #17624] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:06:34.742299 #17624] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:06:34 GMT
+D, [2012-03-11T04:06:34.742575 #17624] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2012-03-11T04:06:34.742678 #17624] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:06:34.742934 #17624] DEBUG -- : response-header: vary => Cookie
+D, [2012-03-11T04:06:34.743053 #17624] DEBUG -- : response-header: location => https://www.appannie.com/
+D, [2012-03-11T04:06:34.743323 #17624] DEBUG -- : response-header: set-cookie => sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6gbi:OB6qWwUcw9013cJR7Emh6d24owk"; Path=/
+D, [2012-03-11T04:06:34.743430 #17624] DEBUG -- : response-header: content-length => 0
+D, [2012-03-11T04:06:34.744023 #17624] DEBUG -- : Read 0 bytes (0 total)
+D, [2012-03-11T04:06:34.761578 #17624] DEBUG -- : saved cookie: sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6gbi:OB6qWwUcw9013cJR7Emh6d24owk"
+I, [2012-03-11T04:06:34.761735 #17624]  INFO -- : follow redirect to: https://www.appannie.com/
+I, [2012-03-11T04:06:34.762561 #17624]  INFO -- : Net::HTTP::Get: /
+D, [2012-03-11T04:06:34.762632 #17624] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:06:34.762691 #17624] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:06:34.762746 #17624] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:06:34.762798 #17624] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:06:34.762850 #17624] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:06:34.762902 #17624] DEBUG -- : request-header: cookie => sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6gbi:OB6qWwUcw9013cJR7Emh6d24owk"
+D, [2012-03-11T04:06:34.762955 #17624] DEBUG -- : request-header: host => www.appannie.com
+D, [2012-03-11T04:06:34.763016 #17624] DEBUG -- : request-header: referer => https://www.appannie.com/account/login/
+I, [2012-03-11T04:06:35.863042 #17624]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2012-03-11T04:06:35.863184 #17624] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:06:35.863240 #17624] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:06:35 GMT
+D, [2012-03-11T04:06:35.863292 #17624] DEBUG -- : response-header: content-type => text/html
+D, [2012-03-11T04:06:35.863342 #17624] DEBUG -- : response-header: content-length => 185
+D, [2012-03-11T04:06:35.863391 #17624] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:06:35.863454 #17624] DEBUG -- : response-header: location => http://www.appannie.com/
+D, [2012-03-11T04:06:35.863591 #17624] DEBUG -- : Read 185 bytes (185 total)
+I, [2012-03-11T04:06:35.864815 #17624]  INFO -- : follow redirect to: http://www.appannie.com/
+I, [2012-03-11T04:06:35.865436 #17624]  INFO -- : Net::HTTP::Get: /
+D, [2012-03-11T04:06:35.865502 #17624] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:06:35.865557 #17624] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:06:35.865610 #17624] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:06:35.865661 #17624] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:06:35.865713 #17624] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:06:35.865770 #17624] DEBUG -- : request-header: cookie => sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6gbi:OB6qWwUcw9013cJR7Emh6d24owk"
+D, [2012-03-11T04:06:35.865822 #17624] DEBUG -- : request-header: host => www.appannie.com
+I, [2012-03-11T04:06:36.654465 #17624]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2012-03-11T04:06:36.654742 #17624] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:06:36.654857 #17624] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:06:36 GMT
+D, [2012-03-11T04:06:36.654960 #17624] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2012-03-11T04:06:36.655062 #17624] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2012-03-11T04:06:36.655162 #17624] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:06:36.655261 #17624] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2012-03-11T04:06:36.655428 #17624] DEBUG -- : response-header: content-encoding => gzip
+D, [2012-03-11T04:06:36.655909 #17624] DEBUG -- : Read 1224 bytes (1224 total)
+D, [2012-03-11T04:06:36.655992 #17624] DEBUG -- : Read 2433 bytes (3657 total)
+D, [2012-03-11T04:06:36.676588 #17624] DEBUG -- : gzip response
+I, [2012-03-11T04:08:51.907664 #17629]  INFO -- : Net::HTTP::Get: /account/login/
+D, [2012-03-11T04:08:51.908233 #17629] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:08:51.908298 #17629] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:08:51.908345 #17629] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:08:51.908390 #17629] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:08:51.908433 #17629] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:08:51.908476 #17629] DEBUG -- : request-header: host => www.appannie.com
+I, [2012-03-11T04:08:55.231207 #17629]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2012-03-11T04:08:55.231475 #17629] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:08:55.231589 #17629] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:08:54 GMT
+D, [2012-03-11T04:08:55.231711 #17629] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2012-03-11T04:08:55.231762 #17629] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2012-03-11T04:08:55.231813 #17629] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:08:55.231863 #17629] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2012-03-11T04:08:55.231912 #17629] DEBUG -- : response-header: content-encoding => gzip
+D, [2012-03-11T04:08:55.232157 #17629] DEBUG -- : Read 3204 bytes (3204 total)
+D, [2012-03-11T04:08:55.232516 #17629] DEBUG -- : gzip response
+I, [2012-03-11T04:08:55.238552 #17629]  INFO -- : form encoding: utf-8
+D, [2012-03-11T04:08:55.238823 #17629] DEBUG -- : query: "username=uenoyama718%40gmail.com&password=globalweb2010&next=%2F"
+I, [2012-03-11T04:08:55.241212 #17629]  INFO -- : Net::HTTP::Post: /account/login/
+D, [2012-03-11T04:08:55.241277 #17629] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:08:55.241331 #17629] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:08:55.241393 #17629] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:08:55.241444 #17629] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:08:55.241495 #17629] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:08:55.241545 #17629] DEBUG -- : request-header: host => www.appannie.com
+D, [2012-03-11T04:08:55.241603 #17629] DEBUG -- : request-header: referer => https://www.appannie.com/account/login/
+D, [2012-03-11T04:08:55.241655 #17629] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2012-03-11T04:08:55.241705 #17629] DEBUG -- : request-header: content-length => 64
+I, [2012-03-11T04:08:57.074785 #17629]  INFO -- : status: Net::HTTPFound 1.1 302 FOUND
+D, [2012-03-11T04:08:57.075055 #17629] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:08:57.075173 #17629] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:08:56 GMT
+D, [2012-03-11T04:08:57.075284 #17629] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2012-03-11T04:08:57.075392 #17629] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:08:57.075495 #17629] DEBUG -- : response-header: vary => Cookie
+D, [2012-03-11T04:08:57.075596 #17629] DEBUG -- : response-header: location => https://www.appannie.com/
+D, [2012-03-11T04:08:57.075698 #17629] DEBUG -- : response-header: set-cookie => sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6ge0:N22vXzmmT_TsMOasXp0JLpyj9ys"; Path=/
+D, [2012-03-11T04:08:57.075893 #17629] DEBUG -- : response-header: content-length => 0
+D, [2012-03-11T04:08:57.076177 #17629] DEBUG -- : Read 0 bytes (0 total)
+D, [2012-03-11T04:08:57.080914 #17629] DEBUG -- : saved cookie: sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6ge0:N22vXzmmT_TsMOasXp0JLpyj9ys"
+I, [2012-03-11T04:08:57.081027 #17629]  INFO -- : follow redirect to: https://www.appannie.com/
+I, [2012-03-11T04:08:57.081617 #17629]  INFO -- : Net::HTTP::Get: /
+D, [2012-03-11T04:08:57.081688 #17629] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:08:57.081743 #17629] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:08:57.081795 #17629] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:08:57.081846 #17629] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:08:57.081897 #17629] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:08:57.081948 #17629] DEBUG -- : request-header: cookie => sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6ge0:N22vXzmmT_TsMOasXp0JLpyj9ys"
+D, [2012-03-11T04:08:57.082007 #17629] DEBUG -- : request-header: host => www.appannie.com
+D, [2012-03-11T04:08:57.082066 #17629] DEBUG -- : request-header: referer => https://www.appannie.com/account/login/
+I, [2012-03-11T04:08:58.290983 #17629]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2012-03-11T04:08:58.291267 #17629] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:08:58.291382 #17629] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:08:58 GMT
+D, [2012-03-11T04:08:58.291501 #17629] DEBUG -- : response-header: content-type => text/html
+D, [2012-03-11T04:08:58.291604 #17629] DEBUG -- : response-header: content-length => 185
+D, [2012-03-11T04:08:58.291705 #17629] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:08:58.291807 #17629] DEBUG -- : response-header: location => http://www.appannie.com/
+D, [2012-03-11T04:08:58.292066 #17629] DEBUG -- : Read 185 bytes (185 total)
+I, [2012-03-11T04:08:58.293365 #17629]  INFO -- : follow redirect to: http://www.appannie.com/
+I, [2012-03-11T04:08:58.294032 #17629]  INFO -- : Net::HTTP::Get: /
+D, [2012-03-11T04:08:58.294098 #17629] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:08:58.294162 #17629] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:08:58.294215 #17629] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:08:58.294268 #17629] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:08:58.294319 #17629] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:08:58.294371 #17629] DEBUG -- : request-header: cookie => sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6ge0:N22vXzmmT_TsMOasXp0JLpyj9ys"
+D, [2012-03-11T04:08:58.294430 #17629] DEBUG -- : request-header: host => www.appannie.com
+I, [2012-03-11T04:08:59.422590 #17629]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2012-03-11T04:08:59.422740 #17629] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:08:59.422797 #17629] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:08:59 GMT
+D, [2012-03-11T04:08:59.422849 #17629] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2012-03-11T04:08:59.422937 #17629] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2012-03-11T04:08:59.422990 #17629] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:08:59.423048 #17629] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2012-03-11T04:08:59.423130 #17629] DEBUG -- : response-header: content-encoding => gzip
+D, [2012-03-11T04:08:59.423303 #17629] DEBUG -- : Read 1224 bytes (1224 total)
+D, [2012-03-11T04:08:59.423607 #17629] DEBUG -- : Read 1448 bytes (2672 total)
+D, [2012-03-11T04:08:59.423791 #17629] DEBUG -- : Read 985 bytes (3657 total)
+D, [2012-03-11T04:08:59.424080 #17629] DEBUG -- : gzip response
+I, [2012-03-11T04:09:09.652842 #17633]  INFO -- : Net::HTTP::Get: /account/login/
+D, [2012-03-11T04:09:09.653233 #17633] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:09:09.653282 #17633] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:09:09.653330 #17633] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:09:09.653377 #17633] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:09:09.653421 #17633] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:09:09.653464 #17633] DEBUG -- : request-header: host => www.appannie.com
+I, [2012-03-11T04:09:12.226481 #17633]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2012-03-11T04:09:12.226732 #17633] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:09:12.226850 #17633] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:09:12 GMT
+D, [2012-03-11T04:09:12.226957 #17633] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2012-03-11T04:09:12.227099 #17633] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2012-03-11T04:09:12.227234 #17633] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:09:12.227338 #17633] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2012-03-11T04:09:12.227438 #17633] DEBUG -- : response-header: content-encoding => gzip
+D, [2012-03-11T04:09:12.227911 #17633] DEBUG -- : Read 3204 bytes (3204 total)
+D, [2012-03-11T04:09:12.228401 #17633] DEBUG -- : gzip response
+I, [2012-03-11T04:09:12.237652 #17633]  INFO -- : form encoding: utf-8
+D, [2012-03-11T04:09:12.237940 #17633] DEBUG -- : query: "username=uenoyama718%40gmail.com&password=globalweb2010&next=%2F"
+I, [2012-03-11T04:09:12.240395 #17633]  INFO -- : Net::HTTP::Post: /account/login/
+D, [2012-03-11T04:09:12.240462 #17633] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:09:12.240516 #17633] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:09:12.240569 #17633] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:09:12.240620 #17633] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:09:12.240672 #17633] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:09:12.240722 #17633] DEBUG -- : request-header: host => www.appannie.com
+D, [2012-03-11T04:09:12.240782 #17633] DEBUG -- : request-header: referer => https://www.appannie.com/account/login/
+D, [2012-03-11T04:09:12.240834 #17633] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2012-03-11T04:09:12.240884 #17633] DEBUG -- : request-header: content-length => 64
+I, [2012-03-11T04:09:14.361430 #17633]  INFO -- : status: Net::HTTPFound 1.1 302 FOUND
+D, [2012-03-11T04:09:14.361710 #17633] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:09:14.361839 #17633] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:09:14 GMT
+D, [2012-03-11T04:09:14.361945 #17633] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2012-03-11T04:09:14.362046 #17633] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:09:14.362214 #17633] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2012-03-11T04:09:14.362321 #17633] DEBUG -- : response-header: location => https://www.appannie.com/
+D, [2012-03-11T04:09:14.362425 #17633] DEBUG -- : response-header: set-cookie => sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6geI:oAJpZQwUHa7Lcr1tM5FNGdm50EQ"; Path=/
+D, [2012-03-11T04:09:14.362528 #17633] DEBUG -- : response-header: content-encoding => gzip
+D, [2012-03-11T04:09:14.362635 #17633] DEBUG -- : response-header: content-length => 20
+D, [2012-03-11T04:09:14.362926 #17633] DEBUG -- : Read 20 bytes (20 total)
+D, [2012-03-11T04:09:14.363586 #17633] DEBUG -- : gzip response
+D, [2012-03-11T04:09:14.367870 #17633] DEBUG -- : saved cookie: sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6geI:oAJpZQwUHa7Lcr1tM5FNGdm50EQ"
+I, [2012-03-11T04:09:14.367977 #17633]  INFO -- : follow redirect to: https://www.appannie.com/
+I, [2012-03-11T04:09:14.368567 #17633]  INFO -- : Net::HTTP::Get: /
+D, [2012-03-11T04:09:14.368629 #17633] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:09:14.368683 #17633] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:09:14.368735 #17633] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:09:14.368793 #17633] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:09:14.368844 #17633] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:09:14.368896 #17633] DEBUG -- : request-header: cookie => sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6geI:oAJpZQwUHa7Lcr1tM5FNGdm50EQ"
+D, [2012-03-11T04:09:14.368954 #17633] DEBUG -- : request-header: host => www.appannie.com
+D, [2012-03-11T04:09:14.369015 #17633] DEBUG -- : request-header: referer => https://www.appannie.com/account/login/
+I, [2012-03-11T04:09:15.414928 #17633]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2012-03-11T04:09:15.415067 #17633] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:09:15.415125 #17633] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:09:15 GMT
+D, [2012-03-11T04:09:15.415176 #17633] DEBUG -- : response-header: content-type => text/html
+D, [2012-03-11T04:09:15.415286 #17633] DEBUG -- : response-header: content-length => 185
+D, [2012-03-11T04:09:15.415338 #17633] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:09:15.415389 #17633] DEBUG -- : response-header: location => http://www.appannie.com/
+D, [2012-03-11T04:09:15.415526 #17633] DEBUG -- : Read 185 bytes (185 total)
+I, [2012-03-11T04:09:15.416505 #17633]  INFO -- : follow redirect to: http://www.appannie.com/
+I, [2012-03-11T04:09:15.417242 #17633]  INFO -- : Net::HTTP::Get: /
+D, [2012-03-11T04:09:15.417312 #17633] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:09:15.417368 #17633] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:09:15.417430 #17633] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:09:15.417484 #17633] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:09:15.417536 #17633] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:09:15.417589 #17633] DEBUG -- : request-header: cookie => sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6geI:oAJpZQwUHa7Lcr1tM5FNGdm50EQ"
+D, [2012-03-11T04:09:15.417679 #17633] DEBUG -- : request-header: host => www.appannie.com
+I, [2012-03-11T04:09:17.110383 #17633]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2012-03-11T04:09:17.110529 #17633] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:09:17.110626 #17633] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:09:16 GMT
+D, [2012-03-11T04:09:17.110681 #17633] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2012-03-11T04:09:17.110733 #17633] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2012-03-11T04:09:17.110785 #17633] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:09:17.110836 #17633] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2012-03-11T04:09:17.110887 #17633] DEBUG -- : response-header: content-encoding => gzip
+D, [2012-03-11T04:09:17.111036 #17633] DEBUG -- : Read 1224 bytes (1224 total)
+D, [2012-03-11T04:09:17.111123 #17633] DEBUG -- : Read 2433 bytes (3657 total)
+D, [2012-03-11T04:09:17.111472 #17633] DEBUG -- : gzip response
+I, [2012-03-11T04:09:17.114641 #17633]  INFO -- : Net::HTTP::Get: /top/iphone/united-states/overall/?date=2012-03-5
+D, [2012-03-11T04:09:17.114714 #17633] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:09:17.114768 #17633] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:09:17.114829 #17633] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:09:17.114881 #17633] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:09:17.114932 #17633] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:09:17.114982 #17633] DEBUG -- : request-header: cookie => sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6geI:oAJpZQwUHa7Lcr1tM5FNGdm50EQ"
+D, [2012-03-11T04:09:17.115034 #17633] DEBUG -- : request-header: host => www.appannie.com
+I, [2012-03-11T04:09:23.185650 #17633]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2012-03-11T04:09:23.185793 #17633] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:09:23.185850 #17633] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:09:22 GMT
+D, [2012-03-11T04:09:23.185904 #17633] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2012-03-11T04:09:23.185989 #17633] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2012-03-11T04:09:23.186041 #17633] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:09:23.186090 #17633] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2012-03-11T04:09:23.186141 #17633] DEBUG -- : response-header: content-encoding => gzip
+D, [2012-03-11T04:09:23.186278 #17633] DEBUG -- : Read 1224 bytes (1224 total)
+D, [2012-03-11T04:09:23.375465 #17633] DEBUG -- : Read 1448 bytes (2672 total)
+D, [2012-03-11T04:09:23.375636 #17633] DEBUG -- : Read 1223 bytes (3895 total)
+D, [2012-03-11T04:09:23.538622 #17633] DEBUG -- : Read 1442 bytes (5337 total)
+D, [2012-03-11T04:09:23.539086 #17633] DEBUG -- : Read 1448 bytes (6785 total)
+D, [2012-03-11T04:09:23.539635 #17633] DEBUG -- : Read 1206 bytes (7991 total)
+D, [2012-03-11T04:09:23.539846 #17633] DEBUG -- : Read 234 bytes (8225 total)
+D, [2012-03-11T04:09:23.695837 #17633] DEBUG -- : Read 1448 bytes (9673 total)
+D, [2012-03-11T04:09:23.696222 #17633] DEBUG -- : Read 1448 bytes (11121 total)
+D, [2012-03-11T04:09:23.852324 #17633] DEBUG -- : Read 966 bytes (12087 total)
+D, [2012-03-11T04:09:23.852725 #17633] DEBUG -- : Read 474 bytes (12561 total)
+D, [2012-03-11T04:09:23.853035 #17633] DEBUG -- : Read 1448 bytes (14009 total)
+D, [2012-03-11T04:09:23.853269 #17633] DEBUG -- : Read 1448 bytes (15457 total)
+D, [2012-03-11T04:09:23.853858 #17633] DEBUG -- : Read 1448 bytes (16905 total)
+D, [2012-03-11T04:09:23.854674 #17633] DEBUG -- : Read 1448 bytes (18353 total)
+D, [2012-03-11T04:09:24.009897 #17633] DEBUG -- : Read 1448 bytes (19801 total)
+D, [2012-03-11T04:09:24.010158 #17633] DEBUG -- : Read 1448 bytes (21249 total)
+D, [2012-03-11T04:09:24.010611 #17633] DEBUG -- : Read 1448 bytes (22697 total)
+D, [2012-03-11T04:09:24.010797 #17633] DEBUG -- : Read 1448 bytes (24145 total)
+D, [2012-03-11T04:09:24.331334 #17633] DEBUG -- : Read 1448 bytes (25593 total)
+D, [2012-03-11T04:09:24.481386 #17633] DEBUG -- : Read 1448 bytes (27041 total)
+D, [2012-03-11T04:09:24.481601 #17633] DEBUG -- : Read 1448 bytes (28489 total)
+D, [2012-03-11T04:09:24.481938 #17633] DEBUG -- : Read 1832 bytes (30321 total)
+D, [2012-03-11T04:09:24.482225 #17633] DEBUG -- : gzip response
+I, [2012-03-11T04:15:27.844575 #17645]  INFO -- : Net::HTTP::Get: /account/login/
+D, [2012-03-11T04:15:27.845317 #17645] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:15:27.845374 #17645] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:15:27.845422 #17645] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:15:27.845468 #17645] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:15:27.845537 #17645] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:15:27.845582 #17645] DEBUG -- : request-header: host => www.appannie.com
+I, [2012-03-11T04:15:30.506461 #17645]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2012-03-11T04:15:30.506576 #17645] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:15:30.506628 #17645] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:15:30 GMT
+D, [2012-03-11T04:15:30.506681 #17645] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2012-03-11T04:15:30.506726 #17645] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2012-03-11T04:15:30.506769 #17645] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:15:30.506812 #17645] DEBUG -- : response-header: vary => Accept-Encoding, Cookie
+D, [2012-03-11T04:15:30.506855 #17645] DEBUG -- : response-header: content-encoding => gzip
+D, [2012-03-11T04:15:30.507084 #17645] DEBUG -- : Read 3618 bytes (3618 total)
+D, [2012-03-11T04:15:30.507407 #17645] DEBUG -- : gzip response
+I, [2012-03-11T04:15:30.514300 #17645]  INFO -- : form encoding: utf-8
+D, [2012-03-11T04:15:30.514540 #17645] DEBUG -- : query: "username=uenoyama718%40gmail.com&password=globalweb2010&next=%2F"
+I, [2012-03-11T04:15:30.516608 #17645]  INFO -- : Net::HTTP::Post: /account/login/
+D, [2012-03-11T04:15:30.516665 #17645] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:15:30.516720 #17645] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:15:30.516768 #17645] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:15:30.516820 #17645] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:15:30.516865 #17645] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:15:30.516909 #17645] DEBUG -- : request-header: host => www.appannie.com
+D, [2012-03-11T04:15:30.516960 #17645] DEBUG -- : request-header: referer => https://www.appannie.com/account/login/
+D, [2012-03-11T04:15:30.517010 #17645] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2012-03-11T04:15:30.517053 #17645] DEBUG -- : request-header: content-length => 64
+I, [2012-03-11T04:15:31.508328 #17645]  INFO -- : status: Net::HTTPFound 1.1 302 FOUND
+D, [2012-03-11T04:15:31.508454 #17645] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:15:31.508503 #17645] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:15:31 GMT
+D, [2012-03-11T04:15:31.508578 #17645] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2012-03-11T04:15:31.508624 #17645] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:15:31.508666 #17645] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2012-03-11T04:15:31.508710 #17645] DEBUG -- : response-header: location => https://www.appannie.com/
+D, [2012-03-11T04:15:31.508760 #17645] DEBUG -- : response-header: set-cookie => sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6gkN:XiMg835hWEr3Fb3jovcppiYEi3k"; Path=/
+D, [2012-03-11T04:15:31.508805 #17645] DEBUG -- : response-header: content-encoding => gzip
+D, [2012-03-11T04:15:31.508848 #17645] DEBUG -- : response-header: content-length => 20
+D, [2012-03-11T04:15:31.508981 #17645] DEBUG -- : Read 20 bytes (20 total)
+D, [2012-03-11T04:15:31.509262 #17645] DEBUG -- : gzip response
+D, [2012-03-11T04:15:31.512815 #17645] DEBUG -- : saved cookie: sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6gkN:XiMg835hWEr3Fb3jovcppiYEi3k"
+I, [2012-03-11T04:15:31.512910 #17645]  INFO -- : follow redirect to: https://www.appannie.com/
+I, [2012-03-11T04:15:31.513439 #17645]  INFO -- : Net::HTTP::Get: /
+D, [2012-03-11T04:15:31.513493 #17645] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:15:31.513539 #17645] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:15:31.513591 #17645] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:15:31.513636 #17645] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:15:31.513680 #17645] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:15:31.513723 #17645] DEBUG -- : request-header: cookie => sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6gkN:XiMg835hWEr3Fb3jovcppiYEi3k"
+D, [2012-03-11T04:15:31.513767 #17645] DEBUG -- : request-header: host => www.appannie.com
+D, [2012-03-11T04:15:31.513824 #17645] DEBUG -- : request-header: referer => https://www.appannie.com/account/login/
+I, [2012-03-11T04:15:32.476721 #17645]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2012-03-11T04:15:32.476847 #17645] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:15:32.477457 #17645] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:15:32 GMT
+D, [2012-03-11T04:15:32.477508 #17645] DEBUG -- : response-header: content-type => text/html
+D, [2012-03-11T04:15:32.477551 #17645] DEBUG -- : response-header: content-length => 185
+D, [2012-03-11T04:15:32.477594 #17645] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:15:32.477637 #17645] DEBUG -- : response-header: location => http://www.appannie.com/
+D, [2012-03-11T04:15:32.477763 #17645] DEBUG -- : Read 185 bytes (185 total)
+I, [2012-03-11T04:15:32.478558 #17645]  INFO -- : follow redirect to: http://www.appannie.com/
+I, [2012-03-11T04:15:32.479104 #17645]  INFO -- : Net::HTTP::Get: /
+D, [2012-03-11T04:15:32.479168 #17645] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:15:32.479215 #17645] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:15:32.479261 #17645] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:15:32.479305 #17645] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:15:32.479348 #17645] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:15:32.479392 #17645] DEBUG -- : request-header: cookie => sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6gkN:XiMg835hWEr3Fb3jovcppiYEi3k"
+D, [2012-03-11T04:15:32.479477 #17645] DEBUG -- : request-header: host => www.appannie.com
+I, [2012-03-11T04:15:33.469441 #17645]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2012-03-11T04:15:33.469580 #17645] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:15:33.469637 #17645] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:15:33 GMT
+D, [2012-03-11T04:15:33.469690 #17645] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2012-03-11T04:15:33.469741 #17645] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2012-03-11T04:15:33.469792 #17645] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:15:33.469842 #17645] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2012-03-11T04:15:33.469901 #17645] DEBUG -- : response-header: content-encoding => gzip
+D, [2012-03-11T04:15:33.470037 #17645] DEBUG -- : Read 1224 bytes (1224 total)
+D, [2012-03-11T04:15:33.610745 #17645] DEBUG -- : Read 1448 bytes (2672 total)
+D, [2012-03-11T04:15:33.610964 #17645] DEBUG -- : Read 985 bytes (3657 total)
+D, [2012-03-11T04:15:33.611213 #17645] DEBUG -- : gzip response
+I, [2012-03-11T04:15:33.613839 #17645]  INFO -- : Net::HTTP::Get: /top/iphone/united-states/overall/?date=2012-03-5
+D, [2012-03-11T04:15:33.613908 #17645] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:15:33.613962 #17645] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:15:33.614010 #17645] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:15:33.614054 #17645] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:15:33.614098 #17645] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:15:33.614156 #17645] DEBUG -- : request-header: cookie => sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6gkN:XiMg835hWEr3Fb3jovcppiYEi3k"
+D, [2012-03-11T04:15:33.614202 #17645] DEBUG -- : request-header: host => www.appannie.com
+I, [2012-03-11T04:15:35.722597 #17645]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2012-03-11T04:15:35.722791 #17645] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:15:35.722843 #17645] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:15:35 GMT
+D, [2012-03-11T04:15:35.722899 #17645] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2012-03-11T04:15:35.722944 #17645] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2012-03-11T04:15:35.722989 #17645] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:15:35.723033 #17645] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2012-03-11T04:15:35.723076 #17645] DEBUG -- : response-header: content-encoding => gzip
+D, [2012-03-11T04:15:35.723191 #17645] DEBUG -- : Read 1224 bytes (1224 total)
+D, [2012-03-11T04:15:35.723268 #17645] DEBUG -- : Read 2671 bytes (3895 total)
+D, [2012-03-11T04:15:35.723739 #17645] DEBUG -- : Read 1442 bytes (5337 total)
+D, [2012-03-11T04:15:35.727889 #17645] DEBUG -- : Read 1448 bytes (6785 total)
+D, [2012-03-11T04:15:35.728111 #17645] DEBUG -- : Read 1206 bytes (7991 total)
+D, [2012-03-11T04:15:35.728201 #17645] DEBUG -- : Read 234 bytes (8225 total)
+D, [2012-03-11T04:15:36.169985 #17645] DEBUG -- : Read 1448 bytes (9673 total)
+D, [2012-03-11T04:15:36.170203 #17645] DEBUG -- : Read 1448 bytes (11121 total)
+D, [2012-03-11T04:15:36.319211 #17645] DEBUG -- : Read 1448 bytes (12569 total)
+D, [2012-03-11T04:15:36.319425 #17645] DEBUG -- : Read 1448 bytes (14017 total)
+D, [2012-03-11T04:15:36.319654 #17645] DEBUG -- : Read 1448 bytes (15465 total)
+D, [2012-03-11T04:15:36.462246 #17645] DEBUG -- : Read 718 bytes (16183 total)
+D, [2012-03-11T04:15:36.462690 #17645] DEBUG -- : Read 722 bytes (16905 total)
+D, [2012-03-11T04:15:36.462846 #17645] DEBUG -- : Read 1448 bytes (18353 total)
+D, [2012-03-11T04:15:36.463164 #17645] DEBUG -- : Read 1448 bytes (19801 total)
+D, [2012-03-11T04:15:36.473040 #17645] DEBUG -- : Read 1448 bytes (21249 total)
+D, [2012-03-11T04:15:36.473599 #17645] DEBUG -- : Read 1448 bytes (22697 total)
+D, [2012-03-11T04:15:36.474342 #17645] DEBUG -- : Read 1448 bytes (24145 total)
+D, [2012-03-11T04:15:36.474749 #17645] DEBUG -- : Read 1448 bytes (25593 total)
+D, [2012-03-11T04:15:36.475333 #17645] DEBUG -- : Read 1448 bytes (27041 total)
+D, [2012-03-11T04:15:36.475511 #17645] DEBUG -- : Read 1448 bytes (28489 total)
+D, [2012-03-11T04:15:36.621091 #17645] DEBUG -- : Read 1832 bytes (30321 total)
+D, [2012-03-11T04:15:36.621473 #17645] DEBUG -- : gzip response
+I, [2012-03-11T04:16:04.833550 #17725]  INFO -- : Net::HTTP::Get: /account/login/
+D, [2012-03-11T04:16:04.834117 #17725] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:16:04.834170 #17725] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:16:04.834215 #17725] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:16:04.834260 #17725] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:16:04.834303 #17725] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:16:04.834346 #17725] DEBUG -- : request-header: host => www.appannie.com
+I, [2012-03-11T04:16:08.317088 #17725]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2012-03-11T04:16:08.317320 #17725] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:16:08.317379 #17725] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:16:07 GMT
+D, [2012-03-11T04:16:08.317431 #17725] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2012-03-11T04:16:08.317482 #17725] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2012-03-11T04:16:08.317533 #17725] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:16:08.317583 #17725] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2012-03-11T04:16:08.317633 #17725] DEBUG -- : response-header: content-encoding => gzip
+D, [2012-03-11T04:16:08.318535 #17725] DEBUG -- : Read 3204 bytes (3204 total)
+D, [2012-03-11T04:16:08.319832 #17725] DEBUG -- : gzip response
+I, [2012-03-11T04:16:08.338242 #17725]  INFO -- : form encoding: utf-8
+D, [2012-03-11T04:16:08.338597 #17725] DEBUG -- : query: "username=uenoyama718%40gmail.com&password=globalweb2010&next=%2F"
+I, [2012-03-11T04:16:08.342265 #17725]  INFO -- : Net::HTTP::Post: /account/login/
+D, [2012-03-11T04:16:08.342325 #17725] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:16:08.342371 #17725] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:16:08.342424 #17725] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:16:08.342468 #17725] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:16:08.342512 #17725] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:16:08.342555 #17725] DEBUG -- : request-header: host => www.appannie.com
+D, [2012-03-11T04:16:08.342606 #17725] DEBUG -- : request-header: referer => https://www.appannie.com/account/login/
+D, [2012-03-11T04:16:08.342650 #17725] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2012-03-11T04:16:08.342709 #17725] DEBUG -- : request-header: content-length => 64
+I, [2012-03-11T04:16:09.360941 #17725]  INFO -- : status: Net::HTTPFound 1.1 302 FOUND
+D, [2012-03-11T04:16:09.361209 #17725] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:16:09.361391 #17725] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:16:09 GMT
+D, [2012-03-11T04:16:09.361501 #17725] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2012-03-11T04:16:09.361614 #17725] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:16:09.361716 #17725] DEBUG -- : response-header: vary => Cookie
+D, [2012-03-11T04:16:09.361817 #17725] DEBUG -- : response-header: location => https://www.appannie.com/
+D, [2012-03-11T04:16:09.361918 #17725] DEBUG -- : response-header: set-cookie => sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6gkz:5VrL0RBNx5dUXKz2vmOuiJfPDWI"; Path=/
+D, [2012-03-11T04:16:09.362021 #17725] DEBUG -- : response-header: content-length => 0
+D, [2012-03-11T04:16:09.362478 #17725] DEBUG -- : Read 0 bytes (0 total)
+D, [2012-03-11T04:16:09.378815 #17725] DEBUG -- : saved cookie: sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6gkz:5VrL0RBNx5dUXKz2vmOuiJfPDWI"
+I, [2012-03-11T04:16:09.378933 #17725]  INFO -- : follow redirect to: https://www.appannie.com/
+I, [2012-03-11T04:16:09.379742 #17725]  INFO -- : Net::HTTP::Get: /
+D, [2012-03-11T04:16:09.379806 #17725] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:16:09.379859 #17725] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:16:09.379911 #17725] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:16:09.379967 #17725] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:16:09.380018 #17725] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:16:09.380076 #17725] DEBUG -- : request-header: cookie => sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6gkz:5VrL0RBNx5dUXKz2vmOuiJfPDWI"
+D, [2012-03-11T04:16:09.380128 #17725] DEBUG -- : request-header: host => www.appannie.com
+D, [2012-03-11T04:16:09.380187 #17725] DEBUG -- : request-header: referer => https://www.appannie.com/account/login/
+I, [2012-03-11T04:16:10.336230 #17725]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2012-03-11T04:16:10.336502 #17725] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:16:10.336622 #17725] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:16:10 GMT
+D, [2012-03-11T04:16:10.336727 #17725] DEBUG -- : response-header: content-type => text/html
+D, [2012-03-11T04:16:10.336843 #17725] DEBUG -- : response-header: content-length => 185
+D, [2012-03-11T04:16:10.336945 #17725] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:16:10.337048 #17725] DEBUG -- : response-header: location => http://www.appannie.com/
+D, [2012-03-11T04:16:10.337309 #17725] DEBUG -- : Read 185 bytes (185 total)
+I, [2012-03-11T04:16:10.338240 #17725]  INFO -- : follow redirect to: http://www.appannie.com/
+I, [2012-03-11T04:16:10.338858 #17725]  INFO -- : Net::HTTP::Get: /
+D, [2012-03-11T04:16:10.338923 #17725] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:16:10.338978 #17725] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:16:10.339038 #17725] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:16:10.339091 #17725] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:16:10.339142 #17725] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:16:10.339194 #17725] DEBUG -- : request-header: cookie => sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6gkz:5VrL0RBNx5dUXKz2vmOuiJfPDWI"
+D, [2012-03-11T04:16:10.339281 #17725] DEBUG -- : request-header: host => www.appannie.com
+I, [2012-03-11T04:16:11.270887 #17725]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2012-03-11T04:16:11.271037 #17725] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:16:11.271115 #17725] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:16:11 GMT
+D, [2012-03-11T04:16:11.271239 #17725] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2012-03-11T04:16:11.271291 #17725] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2012-03-11T04:16:11.271341 #17725] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:16:11.271392 #17725] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2012-03-11T04:16:11.271442 #17725] DEBUG -- : response-header: content-encoding => gzip
+D, [2012-03-11T04:16:11.271586 #17725] DEBUG -- : Read 1224 bytes (1224 total)
+D, [2012-03-11T04:16:11.271671 #17725] DEBUG -- : Read 2433 bytes (3657 total)
+D, [2012-03-11T04:16:11.271904 #17725] DEBUG -- : gzip response
+I, [2012-03-11T04:16:11.274611 #17725]  INFO -- : Net::HTTP::Get: /top/iphone/united-states/overall/?date=2012-03-5
+D, [2012-03-11T04:16:11.274668 #17725] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:16:11.274715 #17725] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:16:11.274761 #17725] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:16:11.274805 #17725] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:16:11.274856 #17725] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:16:11.274901 #17725] DEBUG -- : request-header: cookie => sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6gkz:5VrL0RBNx5dUXKz2vmOuiJfPDWI"
+D, [2012-03-11T04:16:11.274945 #17725] DEBUG -- : request-header: host => www.appannie.com
+I, [2012-03-11T04:16:13.451398 #17725]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2012-03-11T04:16:13.451553 #17725] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:16:13.451613 #17725] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:16:13 GMT
+D, [2012-03-11T04:16:13.451674 #17725] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2012-03-11T04:16:13.451726 #17725] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2012-03-11T04:16:13.451776 #17725] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:16:13.451827 #17725] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2012-03-11T04:16:13.451883 #17725] DEBUG -- : response-header: content-encoding => gzip
+D, [2012-03-11T04:16:13.452024 #17725] DEBUG -- : Read 1224 bytes (1224 total)
+D, [2012-03-11T04:16:13.452138 #17725] DEBUG -- : Read 1448 bytes (2672 total)
+D, [2012-03-11T04:16:13.452216 #17725] DEBUG -- : Read 1223 bytes (3895 total)
+D, [2012-03-11T04:16:13.622249 #17725] DEBUG -- : Read 1442 bytes (5337 total)
+D, [2012-03-11T04:16:13.622561 #17725] DEBUG -- : Read 1448 bytes (6785 total)
+D, [2012-03-11T04:16:13.622828 #17725] DEBUG -- : Read 1206 bytes (7991 total)
+D, [2012-03-11T04:16:13.622933 #17725] DEBUG -- : Read 234 bytes (8225 total)
+D, [2012-03-11T04:16:13.960667 #17725] DEBUG -- : Read 1448 bytes (9673 total)
+D, [2012-03-11T04:16:13.960910 #17725] DEBUG -- : Read 1448 bytes (11121 total)
+D, [2012-03-11T04:16:14.114335 #17725] DEBUG -- : Read 966 bytes (12087 total)
+D, [2012-03-11T04:16:14.114581 #17725] DEBUG -- : Read 1922 bytes (14009 total)
+D, [2012-03-11T04:16:14.265869 #17725] DEBUG -- : Read 1448 bytes (15457 total)
+D, [2012-03-11T04:16:14.266082 #17725] DEBUG -- : Read 1448 bytes (16905 total)
+D, [2012-03-11T04:16:14.266329 #17725] DEBUG -- : Read 1448 bytes (18353 total)
+D, [2012-03-11T04:16:14.419609 #17725] DEBUG -- : Read 1448 bytes (19801 total)
+D, [2012-03-11T04:16:14.420281 #17725] DEBUG -- : Read 1448 bytes (21249 total)
+D, [2012-03-11T04:16:14.421245 #17725] DEBUG -- : Read 1448 bytes (22697 total)
+D, [2012-03-11T04:16:14.421456 #17725] DEBUG -- : Read 1448 bytes (24145 total)
+D, [2012-03-11T04:16:14.485346 #17725] DEBUG -- : Read 1448 bytes (25593 total)
+D, [2012-03-11T04:16:14.485886 #17725] DEBUG -- : Read 1448 bytes (27041 total)
+D, [2012-03-11T04:16:14.486344 #17725] DEBUG -- : Read 1448 bytes (28489 total)
+D, [2012-03-11T04:16:14.571573 #17725] DEBUG -- : Read 1448 bytes (29937 total)
+D, [2012-03-11T04:16:15.401745 #17725] DEBUG -- : Read 384 bytes (30321 total)
+D, [2012-03-11T04:16:15.402368 #17725] DEBUG -- : gzip response
+I, [2012-03-11T04:16:31.601958 #17729]  INFO -- : Net::HTTP::Get: /account/login/
+D, [2012-03-11T04:16:31.602094 #17729] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:16:31.602142 #17729] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:16:31.602188 #17729] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:16:31.602242 #17729] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:16:31.602288 #17729] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:16:31.602332 #17729] DEBUG -- : request-header: host => www.appannie.com
+I, [2012-03-11T04:16:34.525068 #17729]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2012-03-11T04:16:34.525507 #17729] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:16:34.525558 #17729] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:16:34 GMT
+D, [2012-03-11T04:16:34.525602 #17729] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2012-03-11T04:16:34.525645 #17729] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2012-03-11T04:16:34.525688 #17729] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:16:34.525731 #17729] DEBUG -- : response-header: vary => Accept-Encoding, Cookie
+D, [2012-03-11T04:16:34.525773 #17729] DEBUG -- : response-header: content-encoding => gzip
+D, [2012-03-11T04:16:34.526254 #17729] DEBUG -- : Read 3618 bytes (3618 total)
+D, [2012-03-11T04:16:34.526963 #17729] DEBUG -- : gzip response
+I, [2012-03-11T04:16:34.539476 #17729]  INFO -- : form encoding: utf-8
+D, [2012-03-11T04:16:34.539925 #17729] DEBUG -- : query: "username=uenoyama718%40gmail.com&password=globalweb2010&next=%2F"
+I, [2012-03-11T04:16:34.542247 #17729]  INFO -- : Net::HTTP::Post: /account/login/
+D, [2012-03-11T04:16:34.542308 #17729] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:16:34.542355 #17729] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:16:34.542402 #17729] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:16:34.542446 #17729] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:16:34.542497 #17729] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:16:34.542541 #17729] DEBUG -- : request-header: host => www.appannie.com
+D, [2012-03-11T04:16:34.542593 #17729] DEBUG -- : request-header: referer => https://www.appannie.com/account/login/
+D, [2012-03-11T04:16:34.542638 #17729] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2012-03-11T04:16:34.542681 #17729] DEBUG -- : request-header: content-length => 64
+I, [2012-03-11T04:16:36.798966 #17729]  INFO -- : status: Net::HTTPFound 1.1 302 FOUND
+D, [2012-03-11T04:16:36.799083 #17729] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:16:36.799134 #17729] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:16:36 GMT
+D, [2012-03-11T04:16:36.799201 #17729] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2012-03-11T04:16:36.799250 #17729] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:16:36.799297 #17729] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2012-03-11T04:16:36.799342 #17729] DEBUG -- : response-header: location => https://www.appannie.com/
+D, [2012-03-11T04:16:36.800508 #17729] DEBUG -- : response-header: set-cookie => sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6glQ:yhNxEz8kSCTzwhliCZBLRw3P5YQ"; Path=/
+D, [2012-03-11T04:16:36.800575 #17729] DEBUG -- : response-header: content-encoding => gzip
+D, [2012-03-11T04:16:36.800622 #17729] DEBUG -- : response-header: content-length => 20
+D, [2012-03-11T04:16:36.800768 #17729] DEBUG -- : Read 20 bytes (20 total)
+D, [2012-03-11T04:16:36.801266 #17729] DEBUG -- : gzip response
+D, [2012-03-11T04:16:36.806380 #17729] DEBUG -- : saved cookie: sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6glQ:yhNxEz8kSCTzwhliCZBLRw3P5YQ"
+I, [2012-03-11T04:16:36.806738 #17729]  INFO -- : follow redirect to: https://www.appannie.com/
+I, [2012-03-11T04:16:36.807286 #17729]  INFO -- : Net::HTTP::Get: /
+D, [2012-03-11T04:16:36.807343 #17729] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:16:36.807389 #17729] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:16:36.807442 #17729] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:16:36.807486 #17729] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:16:36.807566 #17729] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:16:36.807611 #17729] DEBUG -- : request-header: cookie => sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6glQ:yhNxEz8kSCTzwhliCZBLRw3P5YQ"
+D, [2012-03-11T04:16:36.807655 #17729] DEBUG -- : request-header: host => www.appannie.com
+D, [2012-03-11T04:16:36.807706 #17729] DEBUG -- : request-header: referer => https://www.appannie.com/account/login/
+I, [2012-03-11T04:16:37.782472 #17729]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2012-03-11T04:16:37.782692 #17729] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:16:37.782898 #17729] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:16:37 GMT
+D, [2012-03-11T04:16:37.783026 #17729] DEBUG -- : response-header: content-type => text/html
+D, [2012-03-11T04:16:37.783079 #17729] DEBUG -- : response-header: content-length => 185
+D, [2012-03-11T04:16:37.783274 #17729] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:16:37.783545 #17729] DEBUG -- : response-header: location => http://www.appannie.com/
+D, [2012-03-11T04:16:37.784114 #17729] DEBUG -- : Read 185 bytes (185 total)
+I, [2012-03-11T04:16:37.785592 #17729]  INFO -- : follow redirect to: http://www.appannie.com/
+I, [2012-03-11T04:16:37.786168 #17729]  INFO -- : Net::HTTP::Get: /
+D, [2012-03-11T04:16:37.786234 #17729] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:16:37.786293 #17729] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:16:37.786348 #17729] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:16:37.786400 #17729] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:16:37.786525 #17729] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:16:37.786614 #17729] DEBUG -- : request-header: cookie => sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6glQ:yhNxEz8kSCTzwhliCZBLRw3P5YQ"
+D, [2012-03-11T04:16:37.786668 #17729] DEBUG -- : request-header: host => www.appannie.com
+I, [2012-03-11T04:16:38.575791 #17729]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2012-03-11T04:16:38.575916 #17729] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:16:38.575968 #17729] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:16:38 GMT
+D, [2012-03-11T04:16:38.576015 #17729] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2012-03-11T04:16:38.576059 #17729] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2012-03-11T04:16:38.576109 #17729] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:16:38.576153 #17729] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2012-03-11T04:16:38.576196 #17729] DEBUG -- : response-header: content-encoding => gzip
+D, [2012-03-11T04:16:38.576315 #17729] DEBUG -- : Read 1224 bytes (1224 total)
+D, [2012-03-11T04:16:38.577179 #17729] DEBUG -- : Read 1448 bytes (2672 total)
+D, [2012-03-11T04:16:38.577411 #17729] DEBUG -- : Read 985 bytes (3657 total)
+D, [2012-03-11T04:16:38.577688 #17729] DEBUG -- : gzip response
+I, [2012-03-11T04:16:38.580439 #17729]  INFO -- : Net::HTTP::Get: /top/iphone/united-states/overall/?date=2012-03-5
+D, [2012-03-11T04:16:38.580499 #17729] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:16:38.580548 #17729] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:16:38.580595 #17729] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:16:38.580640 #17729] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:16:38.580685 #17729] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:16:38.580729 #17729] DEBUG -- : request-header: cookie => sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6glQ:yhNxEz8kSCTzwhliCZBLRw3P5YQ"
+D, [2012-03-11T04:16:38.580775 #17729] DEBUG -- : request-header: host => www.appannie.com
+I, [2012-03-11T04:16:41.818511 #17729]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2012-03-11T04:16:41.818659 #17729] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:16:41.818720 #17729] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:16:41 GMT
+D, [2012-03-11T04:16:41.818774 #17729] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2012-03-11T04:16:41.818827 #17729] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2012-03-11T04:16:41.818878 #17729] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:16:41.818929 #17729] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2012-03-11T04:16:41.818980 #17729] DEBUG -- : response-header: content-encoding => gzip
+D, [2012-03-11T04:16:41.819117 #17729] DEBUG -- : Read 1224 bytes (1224 total)
+D, [2012-03-11T04:16:41.819196 #17729] DEBUG -- : Read 1448 bytes (2672 total)
+D, [2012-03-11T04:16:41.968253 #17729] DEBUG -- : Read 1223 bytes (3895 total)
+D, [2012-03-11T04:16:41.969283 #17729] DEBUG -- : Read 2890 bytes (6785 total)
+D, [2012-03-11T04:16:41.970254 #17729] DEBUG -- : Read 1206 bytes (7991 total)
+D, [2012-03-11T04:16:41.970511 #17729] DEBUG -- : Read 234 bytes (8225 total)
+D, [2012-03-11T04:16:42.133429 #17729] DEBUG -- : Read 1448 bytes (9673 total)
+D, [2012-03-11T04:16:42.133637 #17729] DEBUG -- : Read 1448 bytes (11121 total)
+D, [2012-03-11T04:16:42.303884 #17729] DEBUG -- : Read 1448 bytes (12569 total)
+D, [2012-03-11T04:16:42.304111 #17729] DEBUG -- : Read 1448 bytes (14017 total)
+D, [2012-03-11T04:16:42.304393 #17729] DEBUG -- : Read 1448 bytes (15465 total)
+D, [2012-03-11T04:16:42.304810 #17729] DEBUG -- : Read 718 bytes (16183 total)
+D, [2012-03-11T04:16:42.305145 #17729] DEBUG -- : Read 722 bytes (16905 total)
+D, [2012-03-11T04:16:42.305224 #17729] DEBUG -- : Read 1448 bytes (18353 total)
+D, [2012-03-11T04:16:42.307404 #17729] DEBUG -- : Read 1448 bytes (19801 total)
+D, [2012-03-11T04:16:42.307943 #17729] DEBUG -- : Read 1448 bytes (21249 total)
+D, [2012-03-11T04:16:42.452554 #17729] DEBUG -- : Read 1448 bytes (22697 total)
+D, [2012-03-11T04:16:42.452771 #17729] DEBUG -- : Read 1448 bytes (24145 total)
+D, [2012-03-11T04:16:42.453413 #17729] DEBUG -- : Read 1448 bytes (25593 total)
+D, [2012-03-11T04:16:42.778603 #17729] DEBUG -- : Read 1448 bytes (27041 total)
+D, [2012-03-11T04:16:42.779690 #17729] DEBUG -- : Read 1448 bytes (28489 total)
+D, [2012-03-11T04:16:42.780420 #17729] DEBUG -- : Read 1832 bytes (30321 total)
+D, [2012-03-11T04:16:42.780924 #17729] DEBUG -- : gzip response
+I, [2012-03-11T04:17:21.548851 #17733]  INFO -- : Net::HTTP::Get: /account/login/
+D, [2012-03-11T04:17:21.548998 #17733] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:17:21.549048 #17733] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:17:21.549097 #17733] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:17:21.549142 #17733] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:17:21.549185 #17733] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:17:21.549228 #17733] DEBUG -- : request-header: host => www.appannie.com
+I, [2012-03-11T04:17:24.317707 #17733]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2012-03-11T04:17:24.317958 #17733] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:17:24.318070 #17733] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:17:24 GMT
+D, [2012-03-11T04:17:24.318175 #17733] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2012-03-11T04:17:24.318299 #17733] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2012-03-11T04:17:24.318399 #17733] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:17:24.318511 #17733] DEBUG -- : response-header: vary => Accept-Encoding, Cookie
+D, [2012-03-11T04:17:24.318596 #17733] DEBUG -- : response-header: content-encoding => gzip
+D, [2012-03-11T04:17:24.318847 #17733] DEBUG -- : Read 3618 bytes (3618 total)
+D, [2012-03-11T04:17:24.319209 #17733] DEBUG -- : gzip response
+I, [2012-03-11T04:17:24.325391 #17733]  INFO -- : form encoding: utf-8
+D, [2012-03-11T04:17:24.325662 #17733] DEBUG -- : query: "username=uenoyama718%40gmail.com&password=globalweb2010&next=%2F"
+I, [2012-03-11T04:17:24.328097 #17733]  INFO -- : Net::HTTP::Post: /account/login/
+D, [2012-03-11T04:17:24.328164 #17733] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:17:24.328218 #17733] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:17:24.328271 #17733] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:17:24.328322 #17733] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:17:24.328373 #17733] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:17:24.328423 #17733] DEBUG -- : request-header: host => www.appannie.com
+D, [2012-03-11T04:17:24.328489 #17733] DEBUG -- : request-header: referer => https://www.appannie.com/account/login/
+D, [2012-03-11T04:17:24.328541 #17733] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2012-03-11T04:17:24.328591 #17733] DEBUG -- : request-header: content-length => 64
+I, [2012-03-11T04:17:25.408673 #17733]  INFO -- : status: Net::HTTPFound 1.1 302 FOUND
+D, [2012-03-11T04:17:25.408830 #17733] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:17:25.408932 #17733] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:17:25 GMT
+D, [2012-03-11T04:17:25.408986 #17733] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2012-03-11T04:17:25.409037 #17733] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:17:25.409086 #17733] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2012-03-11T04:17:25.409137 #17733] DEBUG -- : response-header: location => https://www.appannie.com/
+D, [2012-03-11T04:17:25.409195 #17733] DEBUG -- : response-header: set-cookie => sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6gmD:CALI9soKYbtf2niAcYDNkaG575I"; Path=/
+D, [2012-03-11T04:17:25.409247 #17733] DEBUG -- : response-header: content-encoding => gzip
+D, [2012-03-11T04:17:25.409297 #17733] DEBUG -- : response-header: content-length => 20
+D, [2012-03-11T04:17:25.409447 #17733] DEBUG -- : Read 20 bytes (20 total)
+D, [2012-03-11T04:17:25.409889 #17733] DEBUG -- : gzip response
+D, [2012-03-11T04:17:25.413860 #17733] DEBUG -- : saved cookie: sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6gmD:CALI9soKYbtf2niAcYDNkaG575I"
+I, [2012-03-11T04:17:25.413955 #17733]  INFO -- : follow redirect to: https://www.appannie.com/
+I, [2012-03-11T04:17:25.414550 #17733]  INFO -- : Net::HTTP::Get: /
+D, [2012-03-11T04:17:25.414615 #17733] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:17:25.414668 #17733] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:17:25.414722 #17733] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:17:25.414773 #17733] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:17:25.414823 #17733] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:17:25.414882 #17733] DEBUG -- : request-header: cookie => sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6gmD:CALI9soKYbtf2niAcYDNkaG575I"
+D, [2012-03-11T04:17:25.414934 #17733] DEBUG -- : request-header: host => www.appannie.com
+D, [2012-03-11T04:17:25.414992 #17733] DEBUG -- : request-header: referer => https://www.appannie.com/account/login/
+I, [2012-03-11T04:17:26.481728 #17733]  INFO -- : status: Net::HTTPMovedPermanently 1.1 301 Moved Permanently
+D, [2012-03-11T04:17:26.481872 #17733] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:17:26.481928 #17733] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:17:26 GMT
+D, [2012-03-11T04:17:26.481980 #17733] DEBUG -- : response-header: content-type => text/html
+D, [2012-03-11T04:17:26.482031 #17733] DEBUG -- : response-header: content-length => 185
+D, [2012-03-11T04:17:26.482081 #17733] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:17:26.482139 #17733] DEBUG -- : response-header: location => http://www.appannie.com/
+D, [2012-03-11T04:17:26.482274 #17733] DEBUG -- : Read 185 bytes (185 total)
+I, [2012-03-11T04:17:26.482911 #17733]  INFO -- : follow redirect to: http://www.appannie.com/
+I, [2012-03-11T04:17:26.483490 #17733]  INFO -- : Net::HTTP::Get: /
+D, [2012-03-11T04:17:26.483556 #17733] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:17:26.483611 #17733] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:17:26.483665 #17733] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:17:26.483717 #17733] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:17:26.483801 #17733] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:17:26.483862 #17733] DEBUG -- : request-header: cookie => sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6gmD:CALI9soKYbtf2niAcYDNkaG575I"
+D, [2012-03-11T04:17:26.483916 #17733] DEBUG -- : request-header: host => www.appannie.com
+I, [2012-03-11T04:17:27.212095 #17733]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2012-03-11T04:17:27.212393 #17733] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:17:27.212516 #17733] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:17:27 GMT
+D, [2012-03-11T04:17:27.212628 #17733] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2012-03-11T04:17:27.212738 #17733] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2012-03-11T04:17:27.212841 #17733] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:17:27.212940 #17733] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2012-03-11T04:17:27.213040 #17733] DEBUG -- : response-header: content-encoding => gzip
+D, [2012-03-11T04:17:27.213319 #17733] DEBUG -- : Read 1224 bytes (1224 total)
+D, [2012-03-11T04:17:27.229177 #17733] DEBUG -- : Read 1448 bytes (2672 total)
+D, [2012-03-11T04:17:27.229644 #17733] DEBUG -- : Read 985 bytes (3657 total)
+D, [2012-03-11T04:17:27.230300 #17733] DEBUG -- : gzip response
+I, [2012-03-11T04:17:27.234777 #17733]  INFO -- : Net::HTTP::Get: /top/iphone/united-states/overall/?date=2012-01-4
+D, [2012-03-11T04:17:27.234847 #17733] DEBUG -- : request-header: accept => */*
+D, [2012-03-11T04:17:27.234904 #17733] DEBUG -- : request-header: user-agent => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/534.51.22 (KHTML, like Gecko) Version/5.1.1 Safari/534.51.22
+D, [2012-03-11T04:17:27.234966 #17733] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2012-03-11T04:17:27.235020 #17733] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2012-03-11T04:17:27.235070 #17733] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2012-03-11T04:17:27.235122 #17733] DEBUG -- : request-header: cookie => sessionid=".eJxrYKotZNQIFSxOLS7OzM8rSC0qziwuSc0rKWTqDBWKTywtyYgvLU4tik9KTM5OzUspZA41KE9NSsxLzKksyUwu1ktMTs4vzSvRc04sTvXMK07NK84sySxL9c1PSc1xguphCeVFMikzpZDV9-PGUj0AUYEvNg:1S6gmD:CALI9soKYbtf2niAcYDNkaG575I"
+D, [2012-03-11T04:17:27.235173 #17733] DEBUG -- : request-header: host => www.appannie.com
+I, [2012-03-11T04:17:31.686552 #17733]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2012-03-11T04:17:31.686696 #17733] DEBUG -- : response-header: server => nginx/0.7.67
+D, [2012-03-11T04:17:31.686758 #17733] DEBUG -- : response-header: date => Sun, 11 Mar 2012 11:17:31 GMT
+D, [2012-03-11T04:17:31.686813 #17733] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2012-03-11T04:17:31.686869 #17733] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2012-03-11T04:17:31.686923 #17733] DEBUG -- : response-header: connection => close
+D, [2012-03-11T04:17:31.686974 #17733] DEBUG -- : response-header: vary => Cookie,Accept-Encoding
+D, [2012-03-11T04:17:31.687028 #17733] DEBUG -- : response-header: content-encoding => gzip
+D, [2012-03-11T04:17:31.687175 #17733] DEBUG -- : Read 1224 bytes (1224 total)
+D, [2012-03-11T04:17:31.687253 #17733] DEBUG -- : Read 1448 bytes (2672 total)
+D, [2012-03-11T04:17:31.831565 #17733] DEBUG -- : Read 1223 bytes (3895 total)
+D, [2012-03-11T04:17:31.832074 #17733] DEBUG -- : Read 1442 bytes (5337 total)
+D, [2012-03-11T04:17:31.862253 #17733] DEBUG -- : Read 1448 bytes (6785 total)
+D, [2012-03-11T04:17:31.862780 #17733] DEBUG -- : Read 1206 bytes (7991 total)
+D, [2012-03-11T04:17:31.862992 #17733] DEBUG -- : Read 234 bytes (8225 total)
+D, [2012-03-11T04:17:33.351180 #17733] DEBUG -- : Read 1448 bytes (9673 total)
+D, [2012-03-11T04:17:33.351387 #17733] DEBUG -- : Read 1448 bytes (11121 total)
+D, [2012-03-11T04:17:33.351649 #17733] DEBUG -- : Read 1448 bytes (12569 total)
+D, [2012-03-11T04:17:33.351895 #17733] DEBUG -- : Read 1448 bytes (14017 total)
+D, [2012-03-11T04:17:33.352098 #17733] DEBUG -- : Read 1448 bytes (15465 total)
+D, [2012-03-11T04:17:33.352566 #17733] DEBUG -- : Read 718 bytes (16183 total)
+D, [2012-03-11T04:17:33.352664 #17733] DEBUG -- : Read 722 bytes (16905 total)
+D, [2012-03-11T04:17:33.352777 #17733] DEBUG -- : Read 1448 bytes (18353 total)
+D, [2012-03-11T04:17:33.460277 #17733] DEBUG -- : Read 1448 bytes (19801 total)
+D, [2012-03-11T04:17:33.460596 #17733] DEBUG -- : Read 1448 bytes (21249 total)
+D, [2012-03-11T04:17:33.507283 #17733] DEBUG -- : Read 1448 bytes (22697 total)
+D, [2012-03-11T04:17:33.507820 #17733] DEBUG -- : Read 1448 bytes (24145 total)
+D, [2012-03-11T04:17:33.508465 #17733] DEBUG -- : Read 1448 bytes (25593 total)
+D, [2012-03-11T04:17:33.509075 #17733] DEBUG -- : Read 1448 bytes (27041 total)
+D, [2012-03-11T04:17:33.512738 #17733] DEBUG -- : Read 2707 bytes (29748 total)
+D, [2012-03-11T04:17:33.513211 #17733] DEBUG -- : gzip response

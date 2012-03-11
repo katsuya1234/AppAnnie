@@ -1,0 +1,14 @@
+
+require 'nokogiri'
+require 'open-uri'
+require 'mysql'
+require 'time'
+require 'mechanize'
+
+@a = Time.now()
+
+90.times { |i|  @e = @a - 3600*24*i
+  @date =  @e.year.to_s + '-' + @e.month.to_s + '-'  + (@e.day - 1).to_s
+  puts @date
+}
+

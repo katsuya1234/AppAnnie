@@ -1,0 +1,44 @@
+require 'nokogiri'
+require 'open-uri'
+require 'mysql'
+require 'time'
+require 'mechanize'
+require 'logger'
+require 'kconv'
+
+
+agent = Mechanize.new
+agent.log = Logger.new 'mechlog'
+agent.user_agent_alias = 'Mac Safari'
+login_form = agent.get "https://www.appannie.com/account/login/"
+
+
+## Login to AppAnnie                                                                                                                                                                                                                       
+form = login_form.forms
+form[1].field_with(:name => "username").value = "uenoyama718@gmail.com"
+form[1].field_with(:name => "password").value = "globalweb2010"
+form[1].checkbox
+result = form[1].submit
+agent.cookie_jar
+
+page = agent.get("http://www.appannie.com/top/iphone/united-states/overall/?date=2012-01-4")
+
+doc = page.parser
+
+@link = Array.new()
+@name = Array.new()
+
+
+  j = 1
+  doc.css('td.top_paid a').each do |row|
+    print j 
+    print ' : '
+    print row['href']
+    print ' : '
+    puts row.content.strip
+    j += 1
+
+end
+
+
+

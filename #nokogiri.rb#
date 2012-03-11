@@ -1,0 +1,50 @@
+require 'nokogiri'
+require 'open-uri'
+require 'mysql'
+
+db = Mysql::new("localhost","root","","AANapp_test")
+stmt = db.prepare " Insert into aan_1_ranking(an_ap_country,an_ap_category,an_ap_rk,an_ap_rk_dt,an_ap_rk_category,an_ap_permalink,an_ap_name,an_ap_url,an_timestamp) values(?,?,?,?,?,?,?,?,?)"
+
+@urls = db.query "select an_ap_url from aan_1_ranking where an_ap_rk_category = 'gross'"
+
+@urls.each do |test|
+
+@a = Array.new()
+
+
+  begin
+    
+  doc = Nokogiri::HTML(open('http://' + test[0]))
+    
+    
+    doc.css("h2").each do |h2|  
+      puts h2.text   # title 
+    end
+    
+    
+    doc.css("h3").each do |h3|
+      @a << h3.text
+    end
+    @a[0] =~ /by/
+    puts $'.strip
+    p$`.strip
+   
+    puts @a[2]
+
+
+
+
+
+
+    puts ''
+
+    rescue
+
+    puts 'error'
+
+  end
+  
+  
+end
+
+
