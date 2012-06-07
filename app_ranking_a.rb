@@ -4,6 +4,8 @@ require 'mysql'
 require 'time'
 require 'mechanize'
 
+
+## define data scope
 @countries = ['united-states','japan']
 @os = 'android'
 @categories = ['overall','game','game/arcade','game/brain','game/cards','game/casual','game/racing','game/game-wallpaper','game/game-widgets','game/sports-games']
@@ -21,7 +23,7 @@ result = form[1].submit
 agent.cookie_jar
 
 ## Scrape
-db = Mysql::new("localhost","root","","AANapp_test")
+db = Mysql::new("hoge","hoge","hoge","hoge")
 stmt = db.prepare "                                                                                                                                                                                               Insert into aan_10_ranking(an_ap_country,an_ap_category,an_ap_os,an_ap_rk,an_ap_score,an_ap_rk_dt,an_ap_rk_category,an_ap_permalink,an_ap_name,an_ap_url,an_timestamp) values(?,?,?,?,?,?,?,?,?,?,?)              "
 
 90.times { |i|  @e = @a - 3600*24*(i+17)
