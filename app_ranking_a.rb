@@ -11,9 +11,20 @@ require 'mechanize'
 
 # @categories = ['overall','game','application','finance','shopping','tools','business','comics','education','lifestyle','app-wallpaper','app-widgets','health-and-fitness','entertainment','media-and-video','news-and-magazines','photography','personalization','communication','sports','transportation','books-and-reference','music-and-audio','productivity','social','medical','travel-and-local','weather','libraries-and-demo']
 
-@a = Time.now()
+## login 
 
 agent = Mechanize.new()
+agent.user_agent_alias = 'Mac Safari'
+login_form = agent.get "https://www.appannie.com/account/login/"
+form = login_form.forms
+form[1].field_with(:name => "username").value = "hoge"
+form[1].field_with(:name => "password").value = "hoge"
+form[1].checkbox
+result = form[1].submit
+agent.cookie_jar
+
+@a = Time.now()
+
 db = Mysql::new("localhost","root","","AANapp_test")
 stmt = db.prepare "                                                                                                                                                                                               Insert into aan_10_ranking(an_ap_country,an_ap_category,an_ap_os,an_ap_rk,an_ap_score,an_ap_rk_dt,an_ap_rk_category,an_ap_permalink,an_ap_name,an_ap_url,an_timestamp) values(?,?,?,?,?,?,?,?,?,?,?)              "
 
