@@ -52,7 +52,7 @@ stmt = db.prepare "                                                             
           aa =  'http://www.appannie.com'  +  row['href']
           stmt.execute @country,@category,@os,k,(301-k)*(301-k)/2,@date,'free',row['href'],row.content.strip,aa,@time.to_s
           k += 1
-      end
+        end
         i = 1
         doc.css('td.top_gros a').each do |row|
         aa =  'http://www.appannie.com'  +  row['href']
